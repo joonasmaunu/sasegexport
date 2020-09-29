@@ -15,6 +15,6 @@ SAS Enterprise Guide code exporter exports SAS code from SAS Enterprise Guide pr
 
 From command prompt:
 
-EGExport.exe "/path/to/yuor/SAS/project.egp"
+EGExport.exe "/path/to/your/SAS/project.egp"
 
 This returns the SAS code as output.
