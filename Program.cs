@@ -186,6 +186,7 @@ namespace EGExport
                             continue;
 
                         code = removeMacros(File.ReadAllText(f + "//code.sas"));
+                        idCode.Add(Path.GetFileName(f), code);
                     }
                 }
 
